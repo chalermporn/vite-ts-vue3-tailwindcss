@@ -16,6 +16,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     '@typescript-eslint/no-explicit-any': ['off', { ignoreRestArgs: false }],
     'vue/no-multiple-template-root': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
     // 'vue/component-name-in-template-casing': ['error', 'PascalCase|kebab-case', {
     //   'registeredComponentsOnly': false,
     //   ignores: ['/^router-/', '/^i-/', '/^v-/']
