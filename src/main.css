@@ -1,0 +1,4 @@
+/* ./src/style.css */
+body {
+  @apply bg-blue-200
+}
