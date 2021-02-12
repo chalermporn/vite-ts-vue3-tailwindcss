@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "maximus136.change-string-case",
+    "heybourn.headwind",
+    "bradlc.vscode-tailwindcss",
+    "octref.vetur",
+    "johnsoncodehk.volar",
+    "johnsoncodehk.volar",
+    "xiguaxigua.vue-style-beautify",
+    "znck.vue-language-features",
+    "svelte.svelte-vscode",
+    "znck.preview",
+    "christian-kohler.path-intellisense",
+    "zhuangtongfa.material-theme",
+    "pkief.material-icon-theme",
+    "xabikos.javascriptsnippets",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "dbaeumer.vscode-eslint",
+    "naumovs.color-highlight",
+    "coenraads.bracket-pair-colorizer-2",
+    "hookyqr.beautify",
+    "formulahendry.auto-rename-tag",
+    "steoates.autoimport"
+  ]
+}
