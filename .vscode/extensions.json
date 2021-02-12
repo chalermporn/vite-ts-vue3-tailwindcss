@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+    "coenraads.bracket-pair-colorizer-2",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "formulahendry.auto-rename-tag",
+    "heybourn.headwind",
+    "hookyqr.beautify",
+    "johnsoncodehk.volar",
+    "johnsoncodehk.volar",
+    "maximus136.change-string-case",
+    "mhutchie.git-graph",
+    "naumovs.color-highlight",
+    "octref.vetur",
+    "pkief.material-icon-theme",
+    "steoates.autoimport",
+    "svelte.svelte-vscode",
+    "xabikos.javascriptsnippets",
+    "xiguaxigua.vue-style-beautify",
+    "zhuangtongfa.material-theme",
+    "znck.preview",
+    "znck.vue-language-features"
+  ]
+}

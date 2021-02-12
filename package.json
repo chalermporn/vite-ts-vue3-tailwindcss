@@ -4,10 +4,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck . && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "tailwind-config-viewer": "tailwind-config-viewer -o"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
     "tailwindcss": "^2.0.3",
+    "tailwindcss-children": "^2.1.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
@@ -29,6 +34,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^7.5.0",
     "postcss": "^8.2.6",
+    "tailwind-config-viewer": "^1.5.0",
     "typescript": "^4.1.5",
     "vite": "^2.0.0-beta.69"
   }
