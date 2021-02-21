@@ -2,63 +2,14 @@
   <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="lg:text-center">
       <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">EXAMPLE</h2>
-      <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+      <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-blue-400 sm:text-4xl">
         {{ msg }}
       </p>
-      <p class="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
+      <p class="max-w-2xl mt-4 text-xl text-gray-500 text-red-200 lg:mx-auto">
         Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
-      </p>
-      <div class="mt-5 mb-5">
-        <label class="mr-5">
-          <input type="checkbox" v-model="useScriptSetup" /> Use
-          <code>&lt;script setup&gt;</code>
-        </label>
-        <label>
-          <input type="checkbox" v-model="useTsPlugin" /> Provide types for
-          <code>*.vue</code> imports
-        </label>
-      </div>
-
-      <p class="flex-col text-left bg-gray-100">
-        Recommended IDE setup:
-        <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-        +
-        <template v-if="!useScriptSetup">
-          <a
-            href="https://marketplace.visualstudio.com/items?itemName=octref.vetur"
-            target="_blank">Vetur</a>
-          +
-          <a
-            href="https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features"
-            target="_blank">Vue DX</a>
-        </template>
-        <template v-else>
-          <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-        </template>
-      </p>
-      <p class="flex-col text-left" v-if="useTsPlugin">
-        tsconfig setup:
-        <br />1. Install and add
-        <code>@vuedx/typescript-plugin-vue</code> to tsconfig plugins
-        <br />2. Delete shims-vue.d.ts
-        <br />3. Open
-        <code>src/main.ts</code> in VSCode
-        <br />4. Open VSCode command input
-        <br />5. Search and run "Select TypeScript version" -> "Use workspace version"
-      </p>
-      <button class="p-2 pl-5 pr-5 text-white bg-gray-500 rounded-sm" @click="count++">count is: {{ count }}</button>
-      <p>
-        Edit
-        <code>components/HelloWorld.vue</code> to test hot module replacement.
-      </p>
-
-      <p>
-        <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Docs</a> |
-        <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
       </p>
     </div>
   </div>
-
   <div class="py-12 bg-white">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="lg:text-center">
@@ -70,7 +21,6 @@
           Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
         </p>
       </div>
-
       <div class="mt-10">
         <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <div class="flex">
@@ -179,7 +129,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from 'vue'
+import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'HelloWorld',
   props: {
@@ -189,10 +139,7 @@ export default defineComponent({
     }
   },
   setup: () => {
-    const count = ref(0)
-    const useScriptSetup = ref(false)
-    const useTsPlugin = ref(false)
-    return { count, useScriptSetup, useTsPlugin }
+    // ..
   }
 })
 </script>

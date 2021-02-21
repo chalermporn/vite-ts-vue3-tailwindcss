@@ -37,4 +37,5 @@
       "singleQuote": true
     }
   },
+  "volar.tsPlugin": true,
 }
