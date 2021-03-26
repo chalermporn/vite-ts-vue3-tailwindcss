@@ -19,5 +19,6 @@ export default defineConfig({
     hmr: { overlay: false },
     // Automatically open the app in the browser on server start
     open: true,
+    https: true
   },
 })
